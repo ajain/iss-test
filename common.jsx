@@ -32,7 +32,7 @@ Schemas.Firm = new SimpleSchema({
 });
 
 //attach SimpleSchema to Firms
-Firms.attachSchema(Schemas.Book);
+Firms.attachSchema(Schemas.Firm);
 
 if (Meteor.isClient) {
   // This code is executed on the client only
